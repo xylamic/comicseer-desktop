@@ -35,6 +35,8 @@ Language files are not guaranteed to be compatible across versions. If you upgra
 | Greek/Greece | comicseer_el_GR | 100.0% | admin@geogeo.gr |
 | Russian/Russia | comicseer_ru_RU | 86.5% | alexxx4212@yandex.com |
 
+For details on building/installing language files, refer to [TRANSLATIONS](TRANSLATIONS.md).
+
 # Binary Downloads
 
 You can download the latest releases from [Releases](https://github.com/xylamic/comicseer-desktop/releases).
