@@ -37,6 +37,8 @@ Language files are not guaranteed to be compatible across versions. If you upgra
 
 # Binary Downloads
 
+You can download the latest releases from [Releases](https://github.com/xylamic/comicseer-desktop/releases).
+
 # FAQ
 
 Does this work on Mac?
