@@ -45,6 +45,10 @@ You can download the latest releases from [Releases](https://github.com/xylamic/
 
 Comic Seer Desktop is free to download and distribute. Contribution via this repo is preferred, but forking is also allowed. If you want to contribute to this repo, send a message to [comicseer@xylasoft.com](mailto:comicseer@xylasoft.com) and will provide you the access & details.
 
+# Development
+
+The development environment for Comic Seer Desktop is Qt & Qt Creator. The details on how to setup the environment for Windows & Linux is at [doc/Environment](doc/Environment). A more natural experience will be added and integrated into GitHub, but until then, manual steps are required.
+
 # FAQ
 
 Does this work on Mac?
