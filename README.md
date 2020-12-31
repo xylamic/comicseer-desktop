@@ -41,7 +41,12 @@ For details on building/installing language files, refer to [TRANSLATIONS](TRANS
 
 You can download the latest releases from [Releases](https://github.com/xylamic/comicseer-desktop/releases).
 
+# Licensing
+
+Comic Seer Desktop is free to download and distribute. Contribution via this repo is preferred, but forking is also allowed. If you want to contribute to this repo, send a message to [comicseer@xylasoft.com](mailto:comicseer@xylasoft.com) and will provide you the access & details.
+
 # FAQ
 
 Does this work on Mac?
 - The Qt framework is compatible with Mac and the code can be tweaked to work on Mac with minimal effort, but it has not been completed as yet.
+
