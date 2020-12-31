@@ -1,2 +1,45 @@
-# -comicseer
-Desktop version of Comic Seer - Comic reading application for Windows, Linux (+Mac enabled)
+# ComicSeer Desktop
+
+Comic Seer for the Windows and Linux desktop is one of the most popular comic reading applications. It is freely available and used by hundreds of people daily. The key features include:
+- Single and dual page viewing
+- Zoom from 1X to 4X
+- 90 degree page rotations
+- Comic page browsing
+- Library management
+- Bookmarking
+- Comic meta-data integration
+
+It is built using the cross platform Qt framework.
+
+### Relation to Comic Seer App
+ComicSeer Desktop is different than the [Comic Seeer App](https://www.microsoft.com/en-us/p/comic-seer/9wzdncrdkcqp?rtc=1&activetab=pivot:overviewtab), which is available only on Windows and not open source. The app is modern option for Comic Seer, but is very Windows-specific (desktop & mobile), so it will not be released on other platforms.
+
+# Screenshots
+
+![Screen1](doc/Images/Screen1.png)
+![Screen2](doc/Images/Screen2.png)
+![Screen3](doc/Images/Screen3.png)
+![Screen4](doc/Images/Screen4.png)
+![Screen5](doc/Images/Screen5.png)
+
+# Multi-language Support
+
+Comic Seer can be adapted to other languages. The below languages are currently supported (outside of English) and always open to new contributions!
+
+Language files are not guaranteed to be compatible across versions. If you upgrade Comic Seer and are using a language file, please use the latest language file as well.
+
+| Language | File | Completion | Contributor |
+| -------- | ---- | ---------- | ----------- |
+| Czech/Czech Republic | comicseer_cs_CZ | 100.0% | pavelfric@seznam.cz |
+| French/France | comicseer_fr_FR | 100.0% | chezdom@yahoo.fr |
+| Greek/Greece | comicseer_el_GR | 100.0% | admin@geogeo.gr |
+| Russian/Russia | comicseer_ru_RU | 86.5% | alexxx4212@yandex.com |
+
+# Binary Downloads
+
+You can download the latest releases from [Releases](https://github.com/xylamic/comicseer-desktop/releases).
+
+# FAQ
+
+Does this work on Mac?
+- The Qt framework is compatible with Mac and the code can be tweaked to work on Mac with minimal effort, but it has not been completed as yet.
