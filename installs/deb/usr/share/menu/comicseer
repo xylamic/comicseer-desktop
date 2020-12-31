@@ -1,0 +1,5 @@
+?package(comicseer): needs="X11" \
+  section="Applications/Viewers" \
+  title="Comic Seer" \
+  command="/usr/bin/comicseer" \
+  icon="/usr/share/pixmaps/comicseer.xpm"

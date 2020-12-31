@@ -1,0 +1,60 @@
+/* Original green: #DBFA7D; */
+
+QToolBar
+{
+    background-color: rgb(220, 220, 220);
+    border:1px solid gray;
+}
+
+QTabBar::tab::selected
+{
+    color: rgb(0, 80, 0);
+}
+
+
+QTabWidget::pane
+{
+    border: 1px solid gray;
+}
+
+QDockWidget::title
+{
+    text-align:center;
+    margin: 1px;
+    border: 1px solid gray;
+    padding: 1px;
+}
+
+QWidget#centralWidget
+{
+}
+
+/*
+QMainWindow::separator
+{
+    background-color: rgb(50, 130, 50);
+    padding: 0px;
+    margin: 4px;
+}
+
+QSplitter::handle
+{
+    background-color: rgb(50, 130, 50);
+    padding: 1px;
+    margin: 1px;
+}
+*/
+
+QGroupBox
+{
+    border: 1px solid gray;
+    margin-top: 0.5em;
+}
+
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 10px;
+    padding: 0 3px 0 3px;
+}

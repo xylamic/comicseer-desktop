@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Comic Seer
+GenericName=Comic Book Reader
+Comment=A reader and manager for comic book archives
+Exec=comicseer %f
+Icon=comicseer
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;Graphics;Viewer;
+MimeType=application/x-cbz;application/x-cbr;application/zip;application/x-rar;

@@ -1,0 +1,78 @@
+/* Original green: #DBFA7D; */
+
+QToolBar
+{
+    background-color:  rgb(220, 220, 220);
+    border:1px solid gray;
+}
+
+QTabBar::tab::selected
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border:1px solid gray;
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+    border-bottom-width: 0px;
+    color: rgb(0, 80, 0);
+    font: "Comic Sans MS";
+}
+
+/*
+QLineEdit, QTextBrowser, QTreeView, QDockWidget::title, QGroupBox, QComboBox, QSpinBox, QScrollArea
+{
+    border-radius:3px;
+    margin: 1px;
+    border: 1px solid gray;
+    padding: 1px;
+}
+*/
+
+QDockWidget::title, QGroupBox
+{
+    margin: 1px;
+    border: 1px solid gray;
+    padding: 1px;
+}
+
+QTabWidget::pane
+{
+    border: 1px solid gray;
+}
+
+QDockWidget::title
+{
+    text-align:center;
+}
+
+QWidget#centralWidget
+{
+}
+
+/*
+QMainWindow::separator
+{
+    background-color: rgb(50, 130, 50);
+    padding: 0px;
+    margin: 4px;
+}
+
+QSplitter::handle
+{
+    background-color: rgb(50, 130, 50);
+    padding: 1px;
+    margin: 1px;
+}
+*/
+
+QGroupBox
+{
+    margin-top: 2ex;
+}
+
+QGroupBox::title
+{
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://www.xylasoft.com/comicseer" targetNamespace="http://www.xylasoft.com/comicseer" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+  <xs:element name="Bookmarks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Bookmark" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bookmark">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="Name" type="xs:string"/>
+        <xs:element name="Path" type="xs:string"/>
+        <xs:element name="Page" type="xs:int"/>
+        <xs:element name="Created" type="xs:long"/>
+        <xs:element name="Description" type="xs:string"/>
+        <xs:element name="Notes" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ComicList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Comic" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Comic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ComicName" type="xs:string"/>
+        <xs:element name="FileName" type="xs:string"/>
+        <xs:element name="Path" type="xs:string"/>
+        <xs:element name="RelativePath" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+
+
+
+
+

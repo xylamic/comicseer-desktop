@@ -1,0 +1,220 @@
+Comic Seer 2.52-1
+	- ComicTagger will now always launch with the correct tag type
+	
+	- Added actions from the options menu to see language file and
+		install new ones
+		
+	- Library search now uses wildcards
+	
+	- Added plural versions of translations
+	
+	- Fixed tab spacing
+	
+Comic Seer 2.51-2
+	- Fixed additiona key press bug
+	
+	- Fixed scaling problem when opening the application
+	
+	- Add 'plus' sign in addition to 'equal' for zoom in
+	
+	- Modified homepage text for better understanding
+
+Comic Seer 2.51
+	- Added ability to find series in file view list in
+		addition to the smart sort list
+	
+	- Updated homepage to make translations easier in the future
+		by componentizing
+	
+	- Fixed bug that caused comics to appear in an unexpected order
+		when added for the first time
+		
+	- Fixed control key binding that kept mappings from working
+	
+	- Fixed issue with incorrect storage path
+	
+	- Fixed spelling error
+	
+Comic Seer 2.50
+	- Added support for user bookmarking
+	
+	- Added ability to move to next comic in series
+	
+	- Hides the cursor when magnifying
+	
+	- Added right-click option to view comic information
+	
+	- Added flash for upgrade indicator for visibility
+	
+	- Rebuilt homepage for better visibility
+	
+	- Removed hiding of tabs
+	
+	- Fixed handling of corrupt archives
+	
+	- Changed icon for comic information
+	
+	- Added ability to add series name to comic name export
+	
+	- Added option for allowing magnification
+	
+	- Added option to restore defaults
+	
+Comic Seer 2.30
+	- Added visualization of comic meta data
+	
+	- Added integration with ComicTagger for meta data creation
+	
+	- Added about dialog
+	
+	- Added option to whether to show full file path
+	
+	- Added option to specify the zoom for the default view
+
+Comic Seer 2.21
+	- Fixed bug for library paths that become invalid
+	
+	- Fixed boost dependency problem in linux
+	
+	- Refined smart comic naming algorithm
+
+Comic Seer 2.20
+	- Added right-click menu for "Close" and "Close Others"
+	
+	- Added support for page rotation in single-page viewing
+	
+	- Add localization support for user-created translations
+	
+Comic Seer 2.10
+
+	- Upgraded QT from 4.8.3 to 4.8.5
+	
+	- Fixed context menu that should not appear on menu bar
+	
+	- Added zoom in and zoom out with plus and minus keys
+	
+	- Added Ctrl+Home and Ctrl+End to traverse to first/last pages
+	
+	- Fixed bug in smart shorting algorithm
+	
+Comic Seer 2.00
+
+	- Added support for file system browsing in your libraries
+	
+	- Added 'smart-sorting' to deduce base comic name and sort
+		by it
+	
+	- Page numbers can now be shown directly on the page of the
+		image, useful for full-screen mode
+	
+	- Fixed name parsing with names that end in '(of XX)'
+	
+	- Fixed comic sorting when searching
+	
+	- Only a single instance of the application will now run 
+		and opening a file from the file system will open in
+		the pre-existing window
+	
+	- Image sorting within an archive is now done
+		case-insensitively
+	
+	- Regular expression used for name parsing is now in an
+		external file and can be changed without recompiling
+	
+	- Fixed issue in reopening a file with non-english characters
+	
+	- Searching now provides a flat list across all libraries
+
+Comic Seer 1.45
+
+	- Refined smart naming in library
+
+	- Added support for individual images files
+
+	- Added memory/option for loading last viewing session
+		
+Comic Seer 1.40
+
+	- Added magnification of comic pages via button on comic view
+		and right-clicking on a comic page
+		
+	- Added missing dependencies to DEB Debian package
+
+Comic Seer 1.32
+
+	- Changed UI style to be better suited to multi-platform
+		and added to visible area
+	
+	- Added ability to copy a comic name to the clipboard
+	
+	- Fixed folders when searching for multi-level libraries and 
+		increased performance drastically in large libraries 
+		via a delayed search
+		
+	- Added splash screen during initial load
+	
+Comic Seer 1.31
+
+	- Added smart naming for files (ie: Wonder woman Vol04 011.cbz is shown 
+		as Wonder Woman V4 #11)
+	
+	- Fixed crash when searching library
+	
+	- Increased speed of library search
+
+Comic Seer 1.30
+
+	- Added support for multi-language folders and files
+	
+	- Added export of library comic list
+	
+	- Updated icons for readability
+
+Comic Seer 1.26
+
+	- Added collapsing when searching your library
+
+	- Now saves split size between library and preview
+
+	- Empty folders are no longer shown in libraries
+
+Comic Seer 1.25
+
+	- Added option to turn off auto-detection of wide pages in two-page 
+		viewing mode
+	
+	- Added option to change thumbnail size when browsing pages
+
+	- Added menu to library view for easy access of opening comics and 
+		adding/removing/refreshing libraries
+
+	- Added window memory for collapsing of menu bar and showing tabs
+
+Comic Seer 1.21
+
+	- Key Commands Updated - Comic Seer can now be completely controlled 
+		from the keyboard
+		You can now scroll left/right on a page with the arrow keys
+		You can switch pages with left/right bracket
+		Ctrl key no longer necessary for keyboard shortcut view changes 
+			(ie: fit to width)
+
+	- Added keyboard commands for recent list, options dialog, and closing 
+		comics
+
+	- Added meta data to Comic Seer executable so pins correctly to the 
+		taskbar in Windows 7
+
+	- Initial position of options window is center of application instead 
+		of screen
+
+	- When searching your library, it is researched after a 'refresh' is 
+		performed
+
+	- Altered key commands to allow page scrlloing with left/right arrows
+
+	- Enter key can open comics when selected in the library
+
+	- Fixed crash when file no longer exists during reading
+
+	- Recent file that no longer exists is now asked for removal on selection

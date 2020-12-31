@@ -1,0 +1,13 @@
+Package: comicseer
+Version: 2.51-3
+Section: graphics
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.15), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4), libqtcore4 (>= 4.8), libqtgui4 (>= 4.8), libqt4-network (>= 4.8)
+Maintainer: Adam Jordan <comicseer@xylasoft.com>
+Installed-Size: 2300
+Description: Comic Seer provides viewing, reading, and managing for eComics.
+ Comic Seer provides viewing, reading, and managing digital comic 
+ (eComic) files. It currently support CBR and CBZ files. It is 
+ fastest and most efficient comic reader for Windows and Linux. 
+ You can visit http://comicseer.xylasoft.com for more information.

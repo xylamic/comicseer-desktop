@@ -1,0 +1,11 @@
+Assumed that you are running Ubuntu 12.04 (x86 or x64)
+
+Installation
+1. Install zlib and zlib1g with development libraries
+2. Install libboost 1.48 or newer (all-dev)
+3. Install qtcreator (newest)
+4. Install subversion
+5. Install lintian
+6. Install filezilla
+7. Install dpkg-sig
+8. Install reprepro

@@ -1,0 +1,163 @@
+comicseer (2.51-3) stable; urgency=low
+  * Fixed additiona key press bug
+  * Fixed scaling problem when opening the application
+  * Add 'plus' sign in addition to 'equal' for zoom in
+  * Modified homepage text for better underst
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Fri, 02 May 2014 12:00:00 -0500
+
+comicseer (2.51-1) stable; urgency=low
+  * Added file search to series next
+  * Componentized homepage
+  * Fixed ordering when adding library
+  * Fixed control key binding for mappings
+  * Fixed issue with incorrect storage path
+  * Fixed spelling error
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Thu, 01 May 2014 12:00:00 -0500
+
+comicseer (2.50-1) stable; urgency=low
+  * Added support for user bookmarking
+  * Added ability to move to next comic in series
+  * Hides the cursor when magnifying
+  * Added right-click option to view comic information
+  * Added flash for upgrade indicator for visibility
+  * Rebuilt homepage for better visibility
+  * Removed hiding of tabs
+  * Fixed handling of corrupt archives
+  * Changed icon for comic information
+  * Added ability to add series name to comic name export
+  * Added option for allowing magnification
+  * Added option to restore defaults
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 22 Apr 2014 12:00:00 -0500
+
+comicseer (2.30-2) stable; urgency=low
+  * Fixed localization bug for comic names
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 8 Apr 2014 12:00:00 -0500
+ 
+comicseer (2.30-1) stable; urgency=low
+  * Added visualization of comic meta data
+  * Added integration with ComicTagger for meta data creation
+  * Added about dialog
+  * Added option to whether to show full file path
+  * Added option to specify the zoom for the default view
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 1 Apr 2014 12:00:00 -0500
+
+comicseer (2.21-3) stable; urgency=low
+  * Fixed translation handling for homepage
+  * Added secondary directory to search for languages
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 1 Apr 2014 12:00:00 -0500
+ 
+comicseer (2.21-1) stable; urgency=low
+  * Fixed bug for library paths that become invalid
+  * Fixed dependency problem with boost in linux
+  * Refined smart comic naming algorithm
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 30 Mar 2014 12:00:00 -0500
+ 
+comicseer (2.20-1) stable; urgency=low
+  * Added right-click menu for "Close" and "Close Others"
+  * Added support for page rotation in single-page viewing
+  * Add localization support for user-created translations
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 23 Mar 2014 12:00:00 -0500
+
+comicseer (2.10-1) stable; urgency=low
+  * Upgraded QT from 4.8.3 to 4.8.5
+  * Fixed context menu that should not appear
+  * Added zoom in and zoom out with plus and minus keys
+  * Added Ctrl+Home and Ctrl+End to traverse to first/last pages
+  * Fixed bug in smart shorting algorithm
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 1 Jan 2014 12:00:00 -0500
+	
+comicseer (2.00-1) unstable; urgency=low
+
+  * Added file system browsing
+  * Added 'smart-sorting' in libraries
+  * Page numbers can be shown on pages
+  * Fixed name parsing issues
+  * Fixed comic sorting when searching
+  * Only single instance of app is now launched
+  * Image sorting in archive is case-insensitive
+  * Regular expression alterable from external
+  * Fixed non-english comic relaunch bug
+  * Searching provides flat search results
+
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 27 Apr 2013 12:00:00 -0500
+
+comicseer (1.45-1) unstable; urgency=low
+
+  * Refined smart naming in library
+  * Added support for individual images files
+  * Added memory/option for loading last viewing session
+	
+ -- Adam Jordan <comicseer@xylasoft.com>  Wed, 11 Oct 2012 12:00:00 -0500
+ 
+comicseer (1.40-1) unstable; urgency=low
+
+  * Added comic page magnification
+  * Fixed Linux DEB missing dependencies
+	
+ -- Adam Jordan <comicseer@xylasoft.com>  Wed, 8 Aug 2012 12:00:00 -0500
+ 
+comicseer (1.32-1) unstable; urgency=low
+
+  * Changed UI style to be better suited to multi-platform
+  * Added ability to copy a comic name to the clipboard
+  * Fixed folders when searching for multi-level libraries
+  * Drastic increase in search performance
+  * Added splash screen during initial load.
+	
+ -- Adam Jordan <comicseer@xylasoft.com>  Sun, 5 Aug 2012 12:00:00 -0500
+ 
+comicseer (1.31-1) unstable; urgency=low
+
+  * Added smart naming for files
+  * Fixed crash when searching library
+  * Increased speed of library search
+	
+ -- Adam Jordan <comicseer@xylasoft.com>  Sun, 29 Jul 2012 12:00:00 -0500
+
+comicseer (1.30-1) unstable; urgency=low
+
+  * Added support for multi-language folders and files
+  * Added export of library comic list
+  * Updated icons for readability
+  
+ -- Adam Jordan <comicseer@xylasoft.com>  Fri, 27 Jul 2012 12:00:00 -0500
+
+comicseer (1.26-1) unstable; urgency=low
+
+  * Added collapsing when searching your library
+  * Now saves split size between library and preview
+  * Empty folders are no longer shown in libraries
+
+ -- Adam Jordan <comicseer@xylasoft.com>  Sat, 21 Jul 2012 12:00:00 -0500
+ 
+comicseer (1.25-1) unstable; urgency=low
+
+  * Added option to turn off auto-detection of wide pages
+  * Added option to change thumbnail size when browsing pages
+  * Added menu to library view
+  * Added window memory for collapsing of menu bar and showing tabs
+
+ -- Adam Jordan <comicseer@xylasoft.com>  Thu, 19 Jul 2012 12:00:00 -0500
+ 
+comicseer (1.21-1) unstable; urgency=low
+
+  * Key Commands Updated
+  * Added keyboard commands
+  * Added meta data to comicseer executable
+  * Initial position of options window in center screen
+  * Fix to research library after refresh
+  * Altered key commands to allow page scrlloing with left/right arrows
+  * Enter key can open comics when selected in the library
+  * Fixed crash when file no longer exists during reading
+  * Recent file that no longer exists is now asked for removal
+
+ -- Adam Jordan <comicseer@xylasoft.com>  Sun, 8 Jul 2012 12:00:00 -0500

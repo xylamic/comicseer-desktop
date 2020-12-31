@@ -1,0 +1,50 @@
+======================================================
+Code Updates
+======================================================
+1. Has the year changed? Update all years in the code.
+2. Update ComicUtils VersionNumber and VersionString
+3. Update WinResource.rc
+4. Edit changelog/changelog to note latest changes
+5. Edit changelog/changelog.Debian to note latest changes
+6. Check in all updates
+
+======================================================
+Build
+======================================================
+1. Linux (x86_64)
+	a. Run "svn update"
+	b. Go to installs/linux directory
+	c. Run "./build_all amd64 <version, '2.51-3'>"
+	d. Check-in any changes
+	e. Upload installs/dist/linux_<arch>/*.deb,*.zip to server "/apt" directory
+2. Linux (x86)
+	a. <same as x86_64 exception "i386" instead of "amd64"
+3. Windows
+	a. Verify qbuild.pri reflects "CONFIG += 32bit"
+	b. Go to installs/win32
+	c. Run "BuildWin32.lnk"
+	d. Upload installs/dist/win32/*.msi to server "/apt" directory
+
+======================================================
+Build Repository and Downloads
+======================================================
+1. Download *.deb files from server "/apt" directory
+2. Go to local "/apt" directory
+3. Run "dpkg-sig --sign builder comicseer_<version>_<arch>.deb" for both architectures
+4. Run "reprepro --ask-passphrase -Vb . includedeb precise comicseer_<version>_<arch>.deb" for both architectures
+5. Upload "pools," "db," and "dists" directory to "/apt" with Filezilla
+6. Copy *.msi & *.zip to "/comicseer/downloads" directory
+7. Delete *.deb (they were copied by the reprepro commands)
+8. Copy changelogs to "/comicseer/downloads"
+
+======================================================
+Update Website and Upload
+======================================================
+1. Update news.php and appnews.php with announcement
+2. Update downloads.php with new version information
+3. Update head.php with new file names
+4. Update version.php with new version information
+5. Upload appnews.php, news.php, downloads.php, head.php, version.php, changelogs
+6. Go to "/installs/linux"
+7. Run "./build_deploy_translations.py"
+

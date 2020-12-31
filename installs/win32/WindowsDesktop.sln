@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WindowsDesktop", "WindowsDesktop.vdproj", "{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+		ReleaseDeployment|Default = ReleaseDeployment|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.Debug|Default.ActiveCfg = Debug
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.Debug|Default.Build.0 = Debug
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.Release|Default.ActiveCfg = Release
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.Release|Default.Build.0 = Release
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.ReleaseDeployment|Default.ActiveCfg = ReleaseDeployment
+		{3FEFA8A9-3DAC-4752-8863-0D0AD80C0498}.ReleaseDeployment|Default.Build.0 = ReleaseDeployment
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ComicInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Title>The Visitation</Title>
+  <Series>Wonder Woman</Series>
+  <Number>1</Number>
+  <Count>2</Count>
+  <Volume>2011</Volume>
+  <AlternateSeries>こんにちは</AlternateSeries>
+  <AlternateNumber>Recherche d'articles...</AlternateNumber>
+  <AlternateCount>43</AlternateCount>
+  <Summary>The Gods walk among us. To them, our lives are playthings. Only one woman would dare to protect humanity from the wrath of such strange and powerful forces. But is she one of us – or one of them?
+The issue opens with a mythical figure of some sort with three women overlooking a city from a skyscraper. After conversing with them he possesses them. The story cuts to a rural farm where a female character bearing a cape made of peacock brings forth some centaur like creatures. They have been summoned to kill a nearby woman, but at the last moment she is confronted by a man with a key. Upon grasping the key, the woman is teleported to London to the bedroom of Diana. Here she explains what has happened to her, and Wonder Woman escorts her back to her house where she engages in combat with the creatures. it is revealed that the man with the key was in fact the Greek God Hermes and he was protecting the woman as she is pregnant with Zeus' child. As the story closes, the actions of the story's narrator become more clear.</Summary>
+  <Notes>Scraped metadata from ComicVine [CVDB293307] on 2012.03.22 23:25:36.</Notes>
+  <Year>2011</Year>
+  <Month>11</Month>
+  <Writer>Brian Azzarello</Writer>
+  <Penciller>Cliff Chiang</Penciller>
+  <Inker>Cliff Chiang</Inker>
+  <Colorist>Matthew Wilson</Colorist>
+  <Letterer>Jared K. Fletcher</Letterer>
+  <CoverArtist>The Artist</CoverArtist>
+  <Editor>Chris Conroy, Matt Idelson</Editor>
+  <Publisher>DC Comics</Publisher>
+  <Imprint>imprint</Imprint>
+  <Genre>Fun</Genre>
+  <Web>http://www.comicvine.com/wonder-woman-the-visitation/37-293307/</Web>
+  <PageCount>26</PageCount>
+  <LanguageISO>Variable</LanguageISO>
+  <Format>Normal</Format>
+  <Characters>Pandora, Hermes, Apollo, Zola, Hera, Wonder Woman</Characters>
+  <Teams>Amazons of Themyscira</Teams>
+  <Locations>Virginia , Singapore, London</Locations>
+  <BlackAndWhite>Yes</BlackAndWhite>
+  <Manga>No</Manga>
+  <Pages>
+    <Page Image="0" ImageWidth="1074" ImageHeight="1650" Type="FrontCover" />
+    <Page Image="1" ImageWidth="1074" ImageHeight="1650" />
+  </Pages>
+</ComicInfo>

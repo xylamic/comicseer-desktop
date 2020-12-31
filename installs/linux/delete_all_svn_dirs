@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo find ./deb -name .svn -exec rm -rf {} \;

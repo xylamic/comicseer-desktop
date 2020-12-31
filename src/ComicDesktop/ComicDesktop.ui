@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComicDesktopClass</class>
+ <widget class="QMainWindow" name="ComicDesktopClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Xylasoft Comic Seer :: {VERSION}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>2</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="ComicSelectionTabWidget" name="tabWidget">
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>Navigation</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>46</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Home"/>
+   <addaction name="action_Open"/>
+   <addaction name="action_Recent"/>
+   <addaction name="action_Libraries"/>
+   <addaction name="action_Bookmarks"/>
+   <addaction name="actionOptions"/>
+   <addaction name="separator"/>
+   <addaction name="action_PageBack"/>
+   <addaction name="action_PageFoward"/>
+   <addaction name="action_Next"/>
+   <addaction name="action_FitWidth"/>
+   <addaction name="action_FitHeight"/>
+   <addaction name="action_FitAll"/>
+   <addaction name="action_FullScreen"/>
+   <addaction name="separator"/>
+   <addaction name="action_Show"/>
+   <addaction name="action_Collapse"/>
+   <addaction name="action_About"/>
+   <addaction name="action_Close"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="styleSheet">
+    <string notr="true">QStatusBar {
+	border:1px solid black;
+}</string>
+   </property>
+  </widget>
+  <action name="action_Open">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Open.png</normaloff>:/ComicDesktop/Resources/Open.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+   <property name="toolTip">
+    <string>Open a comic file</string>
+   </property>
+  </action>
+  <action name="action_Close">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Close.png</normaloff>:/ComicDesktop/Resources/Close.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Close</string>
+   </property>
+   <property name="toolTip">
+    <string>Close the application</string>
+   </property>
+  </action>
+  <action name="action_Libraries">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Libraries.png</normaloff>:/ComicDesktop/Resources/Libraries.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Libraries</string>
+   </property>
+   <property name="toolTip">
+    <string>Show and hide your libraries</string>
+   </property>
+  </action>
+  <action name="action_Home">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Home.png</normaloff>:/ComicDesktop/Resources/Home.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Home</string>
+   </property>
+   <property name="toolTip">
+    <string>Home page</string>
+   </property>
+  </action>
+  <action name="action_PageBack">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Back.png</normaloff>:/ComicDesktop/Resources/Back.png</iconset>
+   </property>
+   <property name="text">
+    <string>B&amp;ack</string>
+   </property>
+   <property name="toolTip">
+    <string>Move to the previous page</string>
+   </property>
+  </action>
+  <action name="action_PageFoward">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Forward.png</normaloff>:/ComicDesktop/Resources/Forward.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Foward</string>
+   </property>
+   <property name="toolTip">
+    <string>Move to the next page</string>
+   </property>
+  </action>
+  <action name="action_Collapse">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Up.png</normaloff>:/ComicDesktop/Resources/Up.png</iconset>
+   </property>
+   <property name="text">
+    <string>Collapse</string>
+   </property>
+   <property name="toolTip">
+    <string>Collapse the tool bar</string>
+   </property>
+  </action>
+  <action name="action_Show">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Down.png</normaloff>:/ComicDesktop/Resources/Down.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show</string>
+   </property>
+   <property name="toolTip">
+    <string>Restore the tool bar size</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="action_FitWidth">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/ScreenFitWidth.png</normaloff>:/ComicDesktop/Resources/ScreenFitWidth.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fit Width</string>
+   </property>
+   <property name="toolTip">
+    <string>Fit to the width of the page</string>
+   </property>
+  </action>
+  <action name="action_FitHeight">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/ScreenFitHeight.png</normaloff>:/ComicDesktop/Resources/ScreenFitHeight.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fit Height</string>
+   </property>
+   <property name="toolTip">
+    <string>Fit to the height of the page</string>
+   </property>
+  </action>
+  <action name="action_FitAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/ScreenFitWidthHeight.png</normaloff>:/ComicDesktop/Resources/ScreenFitWidthHeight.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fit All</string>
+   </property>
+   <property name="toolTip">
+    <string>Fit to both width and height of the page</string>
+   </property>
+  </action>
+  <action name="action_Recent">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Recent.png</normaloff>:/ComicDesktop/Resources/Recent.png</iconset>
+   </property>
+   <property name="text">
+    <string>Recent</string>
+   </property>
+   <property name="toolTip">
+    <string>Recently viewed comics</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Gear.png</normaloff>:/ComicDesktop/Resources/Gear.png</iconset>
+   </property>
+   <property name="text">
+    <string>O&amp;ptions</string>
+   </property>
+   <property name="toolTip">
+    <string>Open the options for Comic Seer</string>
+   </property>
+  </action>
+  <action name="action_FullScreen">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Background.png</normaloff>:/ComicDesktop/Resources/Background.png</iconset>
+   </property>
+   <property name="text">
+    <string>Full</string>
+   </property>
+   <property name="toolTip">
+    <string>Switch to full screen mode (F11)</string>
+   </property>
+  </action>
+  <action name="action_About">
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/ComicSeerSplash.png</normaloff>:/ComicDesktop/Resources/ComicSeerSplash.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="toolTip">
+    <string>About Comic Seer</string>
+   </property>
+  </action>
+  <action name="action_Next">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/ForwardNext.png</normaloff>:/ComicDesktop/Resources/ForwardNext.png</iconset>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+   <property name="toolTip">
+    <string>Open the next comic in the series</string>
+   </property>
+  </action>
+  <action name="action_Bookmarks">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ComicDesktop.qrc">
+     <normaloff>:/ComicDesktop/Resources/Bookmark.png</normaloff>:/ComicDesktop/Resources/Bookmark.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Bookmarks</string>
+   </property>
+   <property name="toolTip">
+    <string>View and edit your bookmarks</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ComicSelectionTabWidget</class>
+   <extends>QTabWidget</extends>
+   <header>ComicSelectionTabWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ComicDesktop.qrc"/>
+ </resources>
+ <connections/>
+</ui>
